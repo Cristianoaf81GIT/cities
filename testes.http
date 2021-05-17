@@ -1,0 +1,13 @@
+@host=http://localhost:8080
+
+### get countries
+GET {{host}}/countries?page=0&size=50&sort=id,ASC
+
+### get by id
+GET {{host}}/countries/3
+
+###
+GET {{host}}/cities?page=0&size=10
+
+###
+GET {{host}}/staties
